@@ -21,7 +21,7 @@ public class TotalMedia
         double media;
         
         do {
-            System.out.print (" Introduce un número (0 para acabar): ");
+            System.out.print (" Introduce un número (0 para terminar): ");
             num = MyInput.readInt();
             if (num != 0 ) {
                 total += num;
