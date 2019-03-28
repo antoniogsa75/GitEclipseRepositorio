@@ -1,8 +1,8 @@
 package laboral.entornos.ejemploGit;
 
 /**
- * Esta clase cuenta cuántos números positivos y negativos hay en una 
- * serie de números que se introducen por teclado.
+ * Esta clase cuenta cuÃ¡ntos nÃºmeros positivos y negativos hay en una 
+ * serie de nÃºmeros que se introducen por teclado.
  * 
  * @author DAWEB - Entornos
  * @version 1.0
@@ -12,7 +12,7 @@ public class PositivosNegativos
 {
     
     /**
-     * Método principal.
+     * MÃ©todo principal.
      */
     public static void main (String [] args) {
     
@@ -21,13 +21,14 @@ public class PositivosNegativos
         int negativos = 0;
         
         do {
-            System.out.print (" Introduce un número (0 para terminar): ");
+            System.out.print (" Introduce un nÃºmero (0 para terminar): ");
             num = MyInput.readInt();
             if (num < 0 ) negativos++;
             else if (num > 0) positivos++;
         } while (num != 0);
-        System.out.println (" Hay "+ positivos + " números positivos y " + negativos + " números negativos ");
+        System.out.println (" Hay "+ positivos + " nÃºmeros positivos y " + negativos + " nÃºmeros negativos ");
            
     }
 }
+//aÃ±adimos una line de prueba desde GitHub en WEB para ver si se replica en Eclipse
     
