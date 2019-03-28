@@ -21,7 +21,7 @@ public class PositivosNegativos
         int negativos = 0;
         
         do {
-            System.out.print (" Introduce un número (0 para terminar): ");
+            System.out.print (" Introduce un número (0 para terminar)-> ");
             num = MyInput.readInt();
             if (num < 0 ) negativos++;
             else if (num > 0) positivos++;
